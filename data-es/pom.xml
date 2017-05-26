@@ -52,6 +52,12 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-elasticsearch</artifactId>
 		</dependency>
+        <!-- 修正 java.lang.ClassNotFoundException: com.sun.jna.Native -->
+		<dependency>
+			<groupId>net.java.dev.jna</groupId>
+			<artifactId>jna</artifactId>
+			<version>4.4.0</version>
+		</dependency>
 		<!-- 引入Rome解析RSS -->
 		<dependency>
 			<groupId>com.rometools</groupId>
